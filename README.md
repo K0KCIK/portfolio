@@ -29,7 +29,7 @@ Initiates the search.
 Parses the results to determine whether the vehicle is insured or not.
 If the vehicle is insured, it prints the result and any additional information.
 Notes
-This script is for educational purposes and should be used responsibly.
+This script is for educational purposes and should be used responsibly and in compliance with the terms of service of the "ownvehicle.askmid.com" website.
 Make sure you have the Chrome web browser installed and the ChromeDriver executable in your system's PATH or specify its location in the script.
 The script uses a headless browser by default. If you want to see the browser window while the script runs, you can remove the --headless option.
 Remember that web scraping may be subject to legal restrictions, so always ensure you have the necessary permissions and adhere to the website's terms of service. Good luck with your project!
