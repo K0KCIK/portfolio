@@ -29,7 +29,7 @@ for plates in number_plates:
     options.add_argument(f'--user-agent={user_agent}')
     options.add_argument('--headless')
     driver = webdriver.Chrome(options=options)
-    driver.get("https://ownvehicle.askmid.com/")
+    driver.get("https://ownvehicle.askmid.com/")#website for example
     time.sleep(1)
     driver.find_element(By.ID,"acceptCookieBtn").click()
     driver.find_element(By.CLASS_NAME,"form-control").send_keys(str(plates))
