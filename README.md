@@ -1,7 +1,7 @@
 # portfolio
 
 Number Plate Checker
-This is your first project, and it's a great start! This Python script checks the insurance status of vehicles by inputting their license plates into the "ownvehicle.askmid.com" website and parsing the results. It uses Selenium for web automation and the pypasser library for solving reCAPTCHA challenges.
+This is my first project. This Python script checks the insurance status of vehicles by inputting their license plates into the "ownvehicle.askmid.com" website and parsing the results. It uses Selenium for web automation and the pypasser library for solving reCAPTCHA challenges.
 
 Usage
 Clone this repository to your local machine.
