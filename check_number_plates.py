@@ -8,6 +8,7 @@ from fake_useragent import UserAgent
 # Initialize an empty list to store vehicle license plates
 number_plates = []
 
+
 # Ask the user for the number of license plates they want to check
 qty = int(input("How many number plates? "))
 for b in range(qty):
