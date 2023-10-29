@@ -1,35 +1,33 @@
+Project name: Personal Assistant
+
+Description: A personal assistant that can perform tasks such as playing music, opening websites, and searching for information.
+
+How to use:
+
+Clone the project to your local machine.
+Install the required dependencies:
+pip install speech_recognition
+pip install pycaw
+pip install selenium
+pip install gtts
+Run the project:
+python main.py
+Commands:
+
+"Good morning": The assistant will greet you and play a good morning audio file.
+"Set volume [number]": The assistant will set the volume to the specified level.
+"Mute volume": The assistant will mute the volume.
+"Unmute volume": The assistant will unmute the volume.
+"Find movie [movie name]": The assistant will search for the specified movie on the website uakino.club and open it in your browser.
+"Close browser": The assistant will close all open browser windows.
+"Time": The assistant will tell you the current time.
+"Next song": The assistant will play the next song in your music library.
+"Pause song": The assistant will pause the current song in your music library.
+"Find [keyword] on Google": The assistant will search for the specified keyword on Google and open the first result in your browser.
+"Find [keyword] on YouTube": The assistant will search for the specified keyword on YouTube and open the first result in your browser.
+"Turn off computer in [number] seconds": The assistant will turn off your computer in the specified number of seconds.
 
 
-Number Plate Checker
-This is my first project. This Python script checks the insurance status of vehicles by inputting their license plates into the "ownvehicle.askmid.com" website and parsing the results. It uses Selenium for web automation and the pypasser library for solving reCAPTCHA challenges.
+License:
 
-Usage
-Clone this repository to your local machine.
-
-Install the required Python packages if you haven't already. You can use pip for that:
-
-
-pip install selenium fake_useragent pypasser
-Run the script:
-
-
-python number_plate_checker.py
-You will be prompted to enter the number of license plates you want to check and then input each plate one by one.
-
-Description
-This script performs the following steps for each license plate:
-
-Launches a headless Chrome browser using Selenium with a randomly generated User-Agent to mimic a real user.
-Navigates to the "ownvehicle.askmid.com" website.
-Accepts the cookie notice.
-Enters the license plate into the search field.
-Accepts data protection terms.
-Solves any reCAPTCHA challenges using the pypasser library.
-Initiates the search.
-Parses the results to determine whether the vehicle is insured or not.
-If the vehicle is insured, it prints the result and any additional information.
-Notes
-This script is for educational purposes and should be used responsibly and in compliance with the terms of service of the website.
-Make sure you have the Chrome web browser installed and the ChromeDriver executable in your system's PATH or specify its location in the script.
-The script uses a headless browser by default. If you want to see the browser window while the script runs, you can remove the --headless option.
-Remember that web scraping may be subject to legal restrictions, so always ensure you have the necessary permissions and adhere to the website's terms of service. Good luck with your project!
+This project is licensed under the MIT License.
